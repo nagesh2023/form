@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        h1,h3{
+            text-align: center;
+            
+        }
+table{
+    height: 500px;
+    width: 700px;
+      margin: auto;
+    
+}
+#btn{
+    padding: 13px;
+
+text-align: right;
+}
+#reset{
+    text-align: right;
+}
+
+
+    
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Survey Form</h1>
+    <h3>Let us know how we can improve free yasham academy</h3>
+    <table id="form"  >
+        
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td> <input type="text" name="name" id="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="email" name="email" id="Email" placeholder="Enter your email" required></td>
+        </tr>
+        <tr>
+            <td><label for="Age">Age:</label></td>
+            <td><input type="age" name="your age" id="Age" placeholder="Age" ></td>
+        </tr>
+        <tr>
+            <td><label for="option">which option best describe your current role: </label></td>
+            <td>
+<select id="option">
+   <option value="student">student</option>
+<option value="employ">employ</option>
+<option value="farmer">farmer</option>
+</select>
+            </td>
+            <tr>
+                <td><label for="definite">how likely is that you would recommend Yesham Academy to friend:</label></td>
+                <td><input type="radio" name="definite" id="definite">definite </td>
+            </tr>
+                <tr>
+                    <td><label for="definite"></label></td>
+                  <td>  <input type="radio" name="definite" id="definite">Maybe</td> 
+                </tr>
+        <tr>
+             <td><label for="definite"></label></td>
+                   <td> <input type="radio" name="definite" id="definite">Notsure</td>
+                </tr>
+        <tr>
+            <td><label for="select">What do you like most in Yesham academy:</label></td>
+            <td>
+                <select id="select"> 
+                    <option value="Yasham academy">Yasham academy</option>
+                    <option value="Vedant academy">Vedant academy</option>
+                    <option value="Mahendra academy">Mahendra academy</option>
+                    <option value="Vinay academy">Vinay academy</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="web devloper">Things that should be improved in the future: <br> (cheak all that apply)
+            </label></td>
+            <td><input type="checkbox" name="front-end project" id="front">Front-end project  </td>
+</tr>
+<tr>
+    <td></td>
+            <td><input type="checkbox" name="front-end project" id="back">Back-end project</td>
+        </tr>
+        <tr>
+            <td> <label for="data"></label></td>
+            <td><input type="checkbox" name="front-end project" id="data">data visualization</td>
+        </tr>
+<tr >
+    <td  id="btn"><input type="submit" value="submit"></td>
+    <td id="reset"><input type="reset" value="reset"></td>
+</tr>
+             
+
+    </table>
+    
+   
+
+</form>
+</body>
+</html>
